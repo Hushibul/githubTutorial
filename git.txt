@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+
+<meta charset="UTF-8/>
+<meta http-equiv="refresh" content="3; url=redirect.html">
+
+</head>
+</html>
+
+
+
+
+nayeemninz786@gmail.com
+coolfool5678
+
+git config --global user.name "Hushibul"
+
+git config --global user.email "nayeemninz786@gmail.com"
+
+git config --get-all user.name
+git config --get-all user.email
+
+git remote add origin https://github.com/Hushibul/hasib.git
+
+
+echo "# hhh" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Hushibul/hasib.git
+git push -u origin main
+
+for pushing 
+
+git commit -m "first commit"
+git branch -M main
+git push -u origin main
+
+
