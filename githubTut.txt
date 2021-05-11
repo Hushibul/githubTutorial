@@ -7,6 +7,12 @@
 -->staging area = files you want to commit
 -->git directory(repository)
 
+//File status life cycle 
+-->untracked
+-->unmodified
+-->modified
+-->staged
+
 
 //Git config
 git config --global user.name "DarkShadow"
@@ -25,5 +31,12 @@ git add --a
 
 //To commmit in git with message
 git commit -m "message"
+
+//To delete every thing from git
+rm -rf .git 
+
+//To clone a git repository
+git clone http://url().git 
+
 
 
