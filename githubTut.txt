@@ -55,3 +55,9 @@ git diff --staged
 //Skipping the staging area 
 git commit -a -m 
 
+//To remove a file
+git rm something.txt
+
+//To rename a file 
+git mv first_name.txt chanaged_name.txt
+
