@@ -61,3 +61,8 @@ git rm something.txt
 //To rename a file 
 git mv first_name.txt chanaged_name.txt
 
+//To make a file untracked 
+git rm --cached random.txt 
+
+
+
