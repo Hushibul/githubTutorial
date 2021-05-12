@@ -52,3 +52,6 @@ git diff
 //Compares previous commit with the new staging area 
 git diff --staged 
 
+//Skipping the staging area 
+git commit -a -m 
+
