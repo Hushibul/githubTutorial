@@ -13,6 +13,8 @@
 -->modified
 -->staged
 
+//touch command = this is a linux command which create named files.
+
 
 //Git config
 git config --global user.name "DarkShadow"
@@ -39,4 +41,14 @@ rm -rf .git
 git clone http://url().git 
 
 
+//git ignore
+.gitignore file ignored by git the files mention inside .gitignore
+*.log -- inside gitignore ignores all the log files. log is an example. 
+dir/ -- inside gitignore ignores folder mentioned like dir/.
+
+//To see the comparison between working directory and staging area 
+git diff 
+
+//Compares previous commit with the new staging area 
+git diff --staged 
 
