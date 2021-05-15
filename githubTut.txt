@@ -38,7 +38,7 @@ git commit -m "message"
 rm -rf .git 
 
 //To clone a git repository
-git clone http://url().git 
+git clone http://url().git //copy the link from github 
 
 
 //git ignore
