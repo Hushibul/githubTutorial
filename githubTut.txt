@@ -65,4 +65,23 @@ git mv first_name.txt chanaged_name.txt
 git rm --cached random.txt 
 
 
+//git log using
 
+//to see the different in git commit in git log 
+git log -p 
+git log -p -3//last 3 commits 
+
+//show the difference in short
+git log --stat 
+
+//show every commit in one line 
+git log --pretty=oneline 
+
+//gives you organized information on commit in short like author and message
+git log --pretty=short 
+
+//gives you organized information on commit in short like author and commit and message
+git log --pretty=full 
+
+//TO see git log of specific timeline 
+git log --since=2.months/years/weeks
