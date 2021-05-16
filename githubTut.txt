@@ -30,6 +30,11 @@ git init
 
 //To take  all your file in the staging area
 git add --a 
+git add .
+git add file_name.txt
+
+//To remove a file from staging area 
+git restore --staged file_name.txt 
 
 //To commmit in git with message
 git commit -m "message"
@@ -89,4 +94,6 @@ git log --since=2.months/years/weeks
 //To change commit from before 
 git commit --amend 
 i for editing, esc for escape, :wq 
+
+
 
