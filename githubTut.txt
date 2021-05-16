@@ -96,4 +96,8 @@ git commit --amend
 i for editing, esc for escape, :wq 
 
 
+//To take your file in the stage of previous commit or save 
+git checkout -- file_name.txt  
+
+
 
