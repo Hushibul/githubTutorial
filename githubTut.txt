@@ -85,3 +85,8 @@ git log --pretty=full
 
 //TO see git log of specific timeline 
 git log --since=2.months/years/weeks
+
+//To change commit from before 
+git commit --amend 
+i for editing, esc for escape, :wq 
+
