@@ -134,6 +134,33 @@ git checkout -b develop
 //To switch between the branch
 git checkout master 
 
+//To see our branches 
+git branch 
+ 
+//To merge two branches 
+git merge develop 
+
+//To see branch_name and hash and commit of branch 
+git branch -v  
+
+//To check the merged branch 
+git branch --merged 
+
+//To check the non merged branch 
+git branch --no-merged 
+
+//To delete branch 
+git branch -d develop //If merged it will be deleted or else it will show warning.
+git branch -D develop //To delete a branch forcefully if it merged or not matters.
+
+
+
+//Branching workflow: Long Running branches, Topic branches
+
+
+//To push a branch into the remote 
+git push origin branch_name //We must be inside the branch to push it.
+ 
 
 
 
