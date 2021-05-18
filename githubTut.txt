@@ -128,6 +128,12 @@ $ ssh-keygen -t ed25519 -C "nayeemninz786@gmail.com"
 git config --global alius.st status 
 git status = git st 
 
+//To create new branch 
+git checkout -b develop 
+
+//To switch between the branch
+git checkout master 
+
 
 
 
