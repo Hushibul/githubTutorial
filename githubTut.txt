@@ -124,6 +124,11 @@ $ ssh-keygen -t ed25519 -C "nayeemninz786@gmail.com"
 //To create id for github 
  tail ~/.ssh/id_ed25519.pub
 
+//git alius: We can make some shorter commands instead of bigger commands 
+git config --global alius.st status 
+git status = git st 
+
+
 
 
 
